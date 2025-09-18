@@ -11,8 +11,7 @@ This framework explores whether Large Language Models can uncover causal relatio
 
 The framework rigorously evaluates the effectiveness of LLMs in causal discovery, comparing them against traditional data-driven algorithms across various scenarios.
 
-![diag2 drawio](https://github.com/user-attachments/assets/
-4ac1172b-780d-49af-a044-430c03a7d359)
+![diag2 drawio](https://github.com/user-attachments/assets/4ac1172b-780d-49af-a044-430c03a7d359)
 
 ## Project Structure
 
