@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-11-09">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="PIP2" label="PIP2" />
+      <node id="PKC" label="PKC" />
+      <node id="plcg" label="plcg" />
+      <node id="PIP3" label="PIP3" />
+      <node id="pjnk" label="pjnk" />
+      <node id="P38" label="P38" />
+      <node id="PKA" label="PKA" />
+      <node id="praf" label="praf" />
+      <node id="pmek" label="pmek" />
+      <node id="p44/42" label="p44/42" />
+      <node id="pakts473" label="pakts473" />
+    </nodes>
+    <edges>
+      <edge source="PIP2" target="PKC" id="0" weight="1" />
+      <edge source="PIP2" target="PIP3" id="1" weight="1" />
+      <edge source="PKC" target="pjnk" id="2" weight="1" />
+      <edge source="PKC" target="P38" id="3" weight="1" />
+      <edge source="PKC" target="praf" id="4" weight="1" />
+      <edge source="PKC" target="pmek" id="5" weight="1" />
+      <edge source="plcg" target="PIP2" id="6" weight="1" />
+      <edge source="plcg" target="PKC" id="7" weight="1" />
+      <edge source="PIP3" target="plcg" id="8" weight="1" />
+      <edge source="PIP3" target="pakts473" id="9" weight="1" />
+      <edge source="PKA" target="P38" id="10" weight="1" />
+      <edge source="PKA" target="praf" id="11" weight="1" />
+      <edge source="PKA" target="pakts473" id="12" weight="1" />
+      <edge source="PKA" target="pmek" id="13" weight="1" />
+      <edge source="PKA" target="p44/42" id="14" weight="1" />
+      <edge source="PKA" target="pjnk" id="15" weight="1" />
+      <edge source="praf" target="pmek" id="16" weight="1" />
+      <edge source="pmek" target="p44/42" id="17" weight="1" />
+    </edges>
+  </graph>
+</gexf>

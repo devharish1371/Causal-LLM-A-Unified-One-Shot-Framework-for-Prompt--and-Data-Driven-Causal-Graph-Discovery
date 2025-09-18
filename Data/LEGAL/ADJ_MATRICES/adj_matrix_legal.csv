@@ -1,0 +1,17 @@
+Death Established,Intention to cause death,No intention to cause death,Falls under exceptions of BNS,Does not fall under exceptions of BNS,Intention to cause bodily injury likely to cause death,No intention to cause bodily injury likely to cause death,Knowledge that injury is likely to cause death,No knowledge that injury is likely to cause death,Injury sufficient to cause death,Injury not sufficient to cause death,High probabilty that death would be caused,Not very likey to cause death,Murder,Culpable homicide,Non-culpable homicide
+0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

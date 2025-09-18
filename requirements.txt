@@ -1,0 +1,12 @@
+pandas==1.5.3
+networkx==2.8.8
+cdt==0.5.23
+bnlearn==0.4.8
+openpyxl==3.1.2
+numpy>= 1.21.0
+torch>=1.10.0
+transformers>=4.30.0
+tqdm>=4.60.0
+gcastle
+gpy
+scikit-learn

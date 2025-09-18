@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-11-09">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="G2" label="G2" />
+      <node id="G91" label="G91" />
+      <node id="G3" label="G3" />
+      <node id="G90" label="G90" />
+      <node id="G4" label="G4" />
+      <node id="G18" label="G18" />
+      <node id="G6" label="G6" />
+      <node id="G52" label="G52" />
+      <node id="G55" label="G55" />
+      <node id="G96" label="G96" />
+      <node id="G7" label="G7" />
+      <node id="G70" label="G70" />
+      <node id="G72" label="G72" />
+      <node id="G83" label="G83" />
+      <node id="G8" label="G8" />
+      <node id="G12" label="G12" />
+      <node id="G10" label="G10" />
+      <node id="G27" label="G27" />
+      <node id="G63" label="G63" />
+      <node id="G16" label="G16" />
+      <node id="G88" label="G88" />
+      <node id="G22" label="G22" />
+      <node id="G1" label="G1" />
+      <node id="G9" label="G9" />
+      <node id="G11" label="G11" />
+      <node id="G13" label="G13" />
+      <node id="G15" label="G15" />
+      <node id="G17" label="G17" />
+      <node id="G20" label="G20" />
+      <node id="G29" label="G29" />
+      <node id="G33" label="G33" />
+      <node id="G34" label="G34" />
+      <node id="G36" label="G36" />
+      <node id="G40" label="G40" />
+      <node id="G43" label="G43" />
+      <node id="G44" label="G44" />
+      <node id="G78" label="G78" />
+      <node id="G81" label="G81" />
+      <node id="G93" label="G93" />
+      <node id="G97" label="G97" />
+      <node id="G98" label="G98" />
+      <node id="G25" label="G25" />
+      <node id="G24" label="G24" />
+      <node id="G46" label="G46" />
+      <node id="G51" label="G51" />
+      <node id="G58" label="G58" />
+      <node id="G60" label="G60" />
+      <node id="G68" label="G68" />
+      <node id="G85" label="G85" />
+      <node id="G26" label="G26" />
+      <node id="G71" label="G71" />
+      <node id="G89" label="G89" />
+      <node id="G28" label="G28" />
+      <node id="G80" label="G80" />
+      <node id="G31" label="G31" />
+      <node id="G39" label="G39" />
+      <node id="G47" label="G47" />
+      <node id="G87" label="G87" />
+      <node id="G65" label="G65" />
+      <node id="G77" label="G77" />
+      <node id="G35" label="G35" />
+      <node id="G53" label="G53" />
+      <node id="G37" label="G37" />
+      <node id="G48" label="G48" />
+      <node id="G14" label="G14" />
+      <node id="G19" label="G19" />
+      <node id="G38" label="G38" />
+      <node id="G49" label="G49" />
+      <node id="G54" label="G54" />
+      <node id="G56" label="G56" />
+      <node id="G73" label="G73" />
+      <node id="G74" label="G74" />
+      <node id="G95" label="G95" />
+      <node id="G76" label="G76" />
+      <node id="G41" label="G41" />
+      <node id="G45" label="G45" />
+      <node id="G100" label="G100" />
+      <node id="G59" label="G59" />
+      <node id="G5" label="G5" />
+      <node id="G23" label="G23" />
+      <node id="G50" label="G50" />
+      <node id="G57" label="G57" />
+      <node id="G64" label="G64" />
+      <node id="G69" label="G69" />
+      <node id="G61" label="G61" />
+      <node id="G67" label="G67" />
+      <node id="G62" label="G62" />
+      <node id="G66" label="G66" />
+      <node id="G21" label="G21" />
+      <node id="G30" label="G30" />
+      <node id="G94" label="G94" />
+      <node id="G99" label="G99" />
+      <node id="G75" label="G75" />
+      <node id="G79" label="G79" />
+      <node id="G82" label="G82" />
+      <node id="G84" label="G84" />
+      <node id="G42" label="G42" />
+      <node id="G86" label="G86" />
+      <node id="G92" label="G92" />
+      <node id="G32" label="G32" />
+    </nodes>
+    <edges>
+      <edge source="G2" target="G91" id="0" weight="1" />
+      <edge source="G3" target="G90" id="1" weight="1" />
+      <edge source="G4" target="G18" id="2" weight="1" />
+      <edge source="G6" target="G52" id="3" weight="1" />
+      <edge source="G6" target="G55" id="4" weight="1" />
+      <edge source="G6" target="G96" id="5" weight="1" />
+      <edge source="G52" target="G1" id="6" weight="1" />
+      <edge source="G52" target="G4" id="7" weight="1" />
+      <edge source="G52" target="G6" id="8" weight="1" />
+      <edge source="G52" target="G9" id="9" weight="1" />
+      <edge source="G52" target="G10" id="10" weight="1" />
+      <edge source="G52" target="G11" id="11" weight="1" />
+      <edge source="G52" target="G14" id="12" weight="1" />
+      <edge source="G52" target="G19" id="13" weight="1" />
+      <edge source="G52" target="G31" id="14" weight="1" />
+      <edge source="G52" target="G36" id="15" weight="1" />
+      <edge source="G52" target="G38" id="16" weight="1" />
+      <edge source="G52" target="G43" id="17" weight="1" />
+      <edge source="G52" target="G44" id="18" weight="1" />
+      <edge source="G52" target="G47" id="19" weight="1" />
+      <edge source="G52" target="G49" id="20" weight="1" />
+      <edge source="G52" target="G51" id="21" weight="1" />
+      <edge source="G52" target="G53" id="22" weight="1" />
+      <edge source="G52" target="G54" id="23" weight="1" />
+      <edge source="G52" target="G56" id="24" weight="1" />
+      <edge source="G52" target="G73" id="25" weight="1" />
+      <edge source="G52" target="G74" id="26" weight="1" />
+      <edge source="G52" target="G81" id="27" weight="1" />
+      <edge source="G52" target="G83" id="28" weight="1" />
+      <edge source="G52" target="G95" id="29" weight="1" />
+      <edge source="G55" target="G6" id="30" weight="1" />
+      <edge source="G55" target="G10" id="31" weight="1" />
+      <edge source="G55" target="G25" id="32" weight="1" />
+      <edge source="G55" target="G41" id="33" weight="1" />
+      <edge source="G55" target="G83" id="34" weight="1" />
+      <edge source="G55" target="G96" id="35" weight="1" />
+      <edge source="G7" target="G6" id="36" weight="1" />
+      <edge source="G7" target="G70" id="37" weight="1" />
+      <edge source="G7" target="G72" id="38" weight="1" />
+      <edge source="G7" target="G83" id="39" weight="1" />
+      <edge source="G83" target="G6" id="40" weight="1" />
+      <edge source="G83" target="G55" id="41" weight="1" />
+      <edge source="G83" target="G96" id="42" weight="1" />
+      <edge source="G8" target="G12" id="43" weight="1" />
+      <edge source="G12" target="G8" id="44" weight="1" />
+      <edge source="G10" target="G27" id="45" weight="1" />
+      <edge source="G10" target="G63" id="46" weight="1" />
+      <edge source="G10" target="G90" id="47" weight="1" />
+      <edge source="G16" target="G6" id="48" weight="1" />
+      <edge source="G16" target="G88" id="49" weight="1" />
+      <edge source="G22" target="G1" id="50" weight="1" />
+      <edge source="G22" target="G2" id="51" weight="1" />
+      <edge source="G22" target="G6" id="52" weight="1" />
+      <edge source="G22" target="G9" id="53" weight="1" />
+      <edge source="G22" target="G11" id="54" weight="1" />
+      <edge source="G22" target="G13" id="55" weight="1" />
+      <edge source="G22" target="G15" id="56" weight="1" />
+      <edge source="G22" target="G17" id="57" weight="1" />
+      <edge source="G22" target="G20" id="58" weight="1" />
+      <edge source="G22" target="G29" id="59" weight="1" />
+      <edge source="G22" target="G33" id="60" weight="1" />
+      <edge source="G22" target="G34" id="61" weight="1" />
+      <edge source="G22" target="G36" id="62" weight="1" />
+      <edge source="G22" target="G40" id="63" weight="1" />
+      <edge source="G22" target="G43" id="64" weight="1" />
+      <edge source="G22" target="G44" id="65" weight="1" />
+      <edge source="G22" target="G52" id="66" weight="1" />
+      <edge source="G22" target="G78" id="67" weight="1" />
+      <edge source="G22" target="G81" id="68" weight="1" />
+      <edge source="G22" target="G91" id="69" weight="1" />
+      <edge source="G22" target="G93" id="70" weight="1" />
+      <edge source="G22" target="G96" id="71" weight="1" />
+      <edge source="G22" target="G97" id="72" weight="1" />
+      <edge source="G22" target="G98" id="73" weight="1" />
+      <edge source="G33" target="G34" id="74" weight="1" />
+      <edge source="G33" target="G65" id="75" weight="1" />
+      <edge source="G33" target="G77" id="76" weight="1" />
+      <edge source="G34" target="G33" id="77" weight="1" />
+      <edge source="G25" target="G1" id="78" weight="1" />
+      <edge source="G25" target="G11" id="79" weight="1" />
+      <edge source="G25" target="G24" id="80" weight="1" />
+      <edge source="G25" target="G43" id="81" weight="1" />
+      <edge source="G25" target="G46" id="82" weight="1" />
+      <edge source="G25" target="G51" id="83" weight="1" />
+      <edge source="G25" target="G58" id="84" weight="1" />
+      <edge source="G25" target="G60" id="85" weight="1" />
+      <edge source="G25" target="G68" id="86" weight="1" />
+      <edge source="G25" target="G81" id="87" weight="1" />
+      <edge source="G25" target="G85" id="88" weight="1" />
+      <edge source="G51" target="G44" id="89" weight="1" />
+      <edge source="G26" target="G60" id="90" weight="1" />
+      <edge source="G26" target="G71" id="91" weight="1" />
+      <edge source="G26" target="G85" id="92" weight="1" />
+      <edge source="G26" target="G89" id="93" weight="1" />
+      <edge source="G26" target="G98" id="94" weight="1" />
+      <edge source="G71" target="G4" id="95" weight="1" />
+      <edge source="G71" target="G13" id="96" weight="1" />
+      <edge source="G71" target="G20" id="97" weight="1" />
+      <edge source="G71" target="G21" id="98" weight="1" />
+      <edge source="G71" target="G29" id="99" weight="1" />
+      <edge source="G71" target="G30" id="100" weight="1" />
+      <edge source="G71" target="G61" id="101" weight="1" />
+      <edge source="G71" target="G66" id="102" weight="1" />
+      <edge source="G71" target="G67" id="103" weight="1" />
+      <edge source="G71" target="G78" id="104" weight="1" />
+      <edge source="G71" target="G88" id="105" weight="1" />
+      <edge source="G71" target="G89" id="106" weight="1" />
+      <edge source="G71" target="G93" id="107" weight="1" />
+      <edge source="G71" target="G94" id="108" weight="1" />
+      <edge source="G71" target="G97" id="109" weight="1" />
+      <edge source="G71" target="G99" id="110" weight="1" />
+      <edge source="G28" target="G80" id="111" weight="1" />
+      <edge source="G80" target="G33" id="112" weight="1" />
+      <edge source="G80" target="G34" id="113" weight="1" />
+      <edge source="G31" target="G39" id="114" weight="1" />
+      <edge source="G31" target="G44" id="115" weight="1" />
+      <edge source="G31" target="G47" id="116" weight="1" />
+      <edge source="G31" target="G87" id="117" weight="1" />
+      <edge source="G47" target="G44" id="118" weight="1" />
+      <edge source="G65" target="G33" id="119" weight="1" />
+      <edge source="G65" target="G34" id="120" weight="1" />
+      <edge source="G35" target="G53" id="121" weight="1" />
+      <edge source="G35" target="G90" id="122" weight="1" />
+      <edge source="G37" target="G52" id="123" weight="1" />
+      <edge source="G48" target="G55" id="124" weight="1" />
+      <edge source="G54" target="G76" id="125" weight="1" />
+      <edge source="G56" target="G20" id="126" weight="1" />
+      <edge source="G56" target="G45" id="127" weight="1" />
+      <edge source="G56" target="G100" id="128" weight="1" />
+      <edge source="G74" target="G38" id="129" weight="1" />
+      <edge source="G74" target="G95" id="130" weight="1" />
+      <edge source="G95" target="G38" id="131" weight="1" />
+      <edge source="G95" target="G74" id="132" weight="1" />
+      <edge source="G59" target="G5" id="133" weight="1" />
+      <edge source="G59" target="G23" id="134" weight="1" />
+      <edge source="G59" target="G41" id="135" weight="1" />
+      <edge source="G59" target="G50" id="136" weight="1" />
+      <edge source="G59" target="G57" id="137" weight="1" />
+      <edge source="G59" target="G64" id="138" weight="1" />
+      <edge source="G59" target="G69" id="139" weight="1" />
+      <edge source="G59" target="G73" id="140" weight="1" />
+      <edge source="G59" target="G90" id="141" weight="1" />
+      <edge source="G61" target="G67" id="142" weight="1" />
+      <edge source="G62" target="G56" id="143" weight="1" />
+      <edge source="G66" target="G21" id="144" weight="1" />
+      <edge source="G66" target="G93" id="145" weight="1" />
+      <edge source="G75" target="G48" id="146" weight="1" />
+      <edge source="G75" target="G55" id="147" weight="1" />
+      <edge source="G79" target="G3" id="148" weight="1" />
+      <edge source="G79" target="G70" id="149" weight="1" />
+      <edge source="G82" target="G10" id="150" weight="1" />
+      <edge source="G82" target="G27" id="151" weight="1" />
+      <edge source="G82" target="G63" id="152" weight="1" />
+      <edge source="G82" target="G90" id="153" weight="1" />
+      <edge source="G84" target="G42" id="154" weight="1" />
+      <edge source="G86" target="G58" id="155" weight="1" />
+      <edge source="G92" target="G6" id="156" weight="1" />
+      <edge source="G92" target="G17" id="157" weight="1" />
+      <edge source="G92" target="G18" id="158" weight="1" />
+      <edge source="G92" target="G19" id="159" weight="1" />
+      <edge source="G92" target="G20" id="160" weight="1" />
+      <edge source="G92" target="G29" id="161" weight="1" />
+      <edge source="G92" target="G30" id="162" weight="1" />
+      <edge source="G92" target="G32" id="163" weight="1" />
+      <edge source="G92" target="G42" id="164" weight="1" />
+      <edge source="G92" target="G45" id="165" weight="1" />
+      <edge source="G92" target="G60" id="166" weight="1" />
+      <edge source="G92" target="G70" id="167" weight="1" />
+      <edge source="G92" target="G78" id="168" weight="1" />
+      <edge source="G92" target="G84" id="169" weight="1" />
+      <edge source="G92" target="G85" id="170" weight="1" />
+      <edge source="G92" target="G93" id="171" weight="1" />
+      <edge source="G92" target="G94" id="172" weight="1" />
+      <edge source="G92" target="G97" id="173" weight="1" />
+      <edge source="G92" target="G99" id="174" weight="1" />
+      <edge source="G92" target="G100" id="175" weight="1" />
+    </edges>
+  </graph>
+</gexf>
