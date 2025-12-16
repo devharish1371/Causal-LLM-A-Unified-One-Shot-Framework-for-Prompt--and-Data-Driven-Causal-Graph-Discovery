@@ -1,0 +1,96 @@
+Prompt for the LLM:
+You are an intelligent causal discovery agent, specialized in analyzing decision-making processes and uncovering the causal relationships between different events. Your task is to process a Directed Acyclic Graph (DAG) involving a murder case and its classification under the Bhartiya Nyaya Sanhita (BNS) legal framework. The DAG is constructed from a set of node labels representing key decision points related to intent, knowledge, and causality of death. The edges between these nodes represent the flow of decisions based on yes/no answers.
+
+You are required to analyze the provided labels, generate an adjacency matrix representing the structure of this DAG, and provide explanations for each directed edge, outlining the reasons for the flow from one node to the next.
+
+---
+
+### *Context:*
+
+The decision process involves assessing the following key elements of causality:
+
+1. *Act:* What action or omission caused the death?
+2. *Mens rea (intention):* What was the mental state of the offender? (Intention, negligence, recklessness, knowledge)
+3. *Chain of events (res gestae):* The surrounding circumstances leading to death, based on facts and evidence.
+
+There are two main types of causes under BNS:
+- *Intent-based causality:* The offender had mens rea (guilty mind), either intending the death or knowing it was likely to occur.
+- *Non-intent-based causality:* The offender did not have mens rea but still committed an act that resulted in death.
+
+---
+
+### *Node Labels:*
+- "Death Established"
+- "Intention to cause death"
+- "No intention to cause death"
+- "Falls under exceptions of BNS"
+- "Does not fall under exceptions of BNS"
+- "Intention to cause bodily injury likely to cause death"
+- "No intention to cause bodily injury likely to cause death"
+- "Knowledge that injury is likely to cause death"
+- "No knowledge that injury is likely to cause death"
+- "Injury sufficient to cause death"
+- "Injury not sufficient to cause death"
+- "Murder"
+- "Culpable homicide"
+- "Non-culpable homicide"
+- "High probability that death would be caused"
+- "Not very likely to cause death"
+
+---
+
+### *Task:*
+
+*Step 1: Generate the adjacency matrix for this DAG.*
+- Construct an adjacency matrix where each row and column corresponds to a node label.
+- If there is a directed edge from node A to node B, place a '1' in the matrix at the position (A, B). If no edge exists, place a '0'.
+
+The output should follow this format (fill in the values for each relationship):
+
+*Step 2: Provide reasoning for each edge.*
+For each directed edge (each '1' in the matrix), explain the reasoning behind it. Your explanations should answer why one node leads to another in terms of causality, intent, and knowledge. The reasons should align with the legal and factual framework provided by the Bhartiya Nyaya Sanhita.
+
+
+
+### *Output Example:*
+
+# Adjacency matrix skeleton for the DAG
+adj_matrix = [
+    # Nodes: Death Established, Intention to cause death, No intention to cause death, Falls under exceptions of BNS, 
+    #        Does not fall under exceptions of BNS, Intention to cause bodily injury likely to cause death, 
+    #        No intention to cause bodily injury likely to cause death, Knowledge that injury is likely to cause death, 
+    #        No knowledge that injury is likely to cause death, Injury sufficient to cause death, Injury not sufficient to cause death,
+    #        Murder, Culpable homicide, Non-culpable homicide, High probability that death would be caused, 
+    #        Not very likely to cause death
+
+    
+    [0, 0, ..., 0],#Death Established
+    [0, 0, ..., 0], # Intention to cause death
+    [0, 0, ..., 1],# No intention to cause death
+    [0, 0, ..., 0],# Falls under exceptions of BNS
+    [0, 0, ..., 0],# Does not fall under exceptions of BNS
+    [0, 0, ..., 1],# Intention to cause bodily injury likely to cause death
+    [0, 0, ..., 0],# No intention to cause bodily injury likely to cause death
+    [0, 0, ..., 0], # Knowledge that injury is likely to cause death
+    .
+    .
+    .
+    .
+    .
+    .
+ 
+]
+
+# Replace the '...' with actual values based on the DAG structure.
+
+
+2. *Reasoning for Edges:*
+- *Edge (Death Established → Intention to cause death):* After the death is established, the next logical inquiry is whether the offender had the intention to cause death, which is a critical factor in determining the classification of the crime.
+.
+.
+.
+.
+.
+
+# Replace the '...' with reasoning based on the edges.
+---

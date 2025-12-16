@@ -1,0 +1,54 @@
+You are an *intelligent causal discovery agent* tasked with mapping the causal relationships in the Asia dataset. This dataset models probabilistic dependencies between features representing medical conditions and risk factors related to respiratory diseases. Your task is to identify the causal relationships between the nodes and construct a Directed Acyclic Graph (DAG) based on these relationships.
+
+---
+
+### **Important Rules:**
+
+1. Each feature may have *multiple incoming edges* to reflect its dependency on upstream causes.  
+2. Root causes act as independent variables that initiate the causal chain.  
+3. Intermediate variables propagate the effects of root causes and influence downstream outcomes.  
+4. Observable outcomes should only receive causal inputs from relevant upstream nodes.  
+5. Ensure the DAG is acyclic and faithfully represents the Asia network structure.
+
+---
+
+### **Features (Nodes):**
+
+1. **asia**: Indicates whether a person has visited Asia (yes/no).  
+2. **tub**: Represents whether the person has tuberculosis (yes/no).  
+3. **smoke**: Indicates if the person is a smoker (yes/no).  
+4. **lung**: Represents whether the person has lung cancer (yes/no).  
+5. **bronc**: Indicates if the person has bronchitis (yes/no).  
+6. **either**: A variable indicating if the person has tuberculosis or lung cancer (yes/no).  
+7. **xray**: Indicates whether the person’s X-ray shows abnormalities (yes/no).  
+8. **dysp**: Represents whether the person experiences shortness of breath (yes/no).  
+
+---
+
+### **Step 1: Finding the Edges**
+
+Here are the identified edges, focusing on how the features interact:
+
+1. **Edge (asia → tub):** Visiting Asia increases the likelihood of tuberculosis due to higher disease prevalence in the region.  
+.
+.
+.
+.
+.
+
+
+---
+
+### **Step 2: Reflect back on each edges to see if it matches with the Domain Knowledge and give the finalized set of edges**
+
+
+---
+
+**Output format:**  
+Provide a list of edges in the format specified above. For example:  
+```
+1. (A, B) : Explanation of why A causes B.  
+2. (C, D) : Explanation of why C causes D.  
+...
+
+---

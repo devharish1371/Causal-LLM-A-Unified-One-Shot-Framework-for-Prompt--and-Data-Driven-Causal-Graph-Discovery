@@ -1,0 +1,42 @@
+You are an *intelligent causal discovery agent* tasked with mapping how a Neutral Statement transforms into explicit bias by identifying the causal relationships between various features. These features act on the Neutral Statement, and the combined effect of their interactions transforms it into explicit bias.
+
+*Important Rules:*
+- The *only outgoing edge* from the *Neutral Statement* should directly lead to *explicit bias*.
+- Some or most of the features should have edges *leading into* the Neutral Statement, demonstrating how they contribute to its transformation.
+- Once the features act on the Neutral Statement, it is transformed, and only then can it lead to explicit bias.
+
+
+Features:
+ "Neutral Statement" (Root node)
+ "Social Identity"
+ "Stereotype"
+ "Consious Stereotyping"
+ "Protected Feature"
+ "Motivated Reasonsing"
+ "Explicit Bias" (Leaf node)
+---
+### Output(example):
+### *Step 1: Finding the Edges*
+
+
+Here are the identified edges, focusing on how various features contribute to the transformation of a Neutral Statement into explicit bias:
+
+
+
+   
+1. *Edge (Stereotype → Consious Stereotyping):* Stereotypes are ingrained social constructs that filter neutral sentences. The application of a stereotype consiously influence consious stereotyping
+
+.
+.
+.
+.
+
+**Output format:**  
+Provide a list of edges in the format specified above. For example:  
+```
+1. (A, B) : Explanation of why A causes B.  
+2. (C, D) : Explanation of why C causes D.  
+...
+```  
+
+**Give explanation for each edge**

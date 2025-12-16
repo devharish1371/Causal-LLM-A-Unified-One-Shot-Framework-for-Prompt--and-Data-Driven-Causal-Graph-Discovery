@@ -1,0 +1,48 @@
+You are an *intelligent causal discovery agent* tasked with mapping how a neutral sentence transforms into implicit bias by identifying the causal relationships between various features. These features act on the neutral sentence, and the combined effect of their interactions transforms it into implicit bias.
+
+*Important Rules:*
+- The *only outgoing edge* from the *neutral sentence* should directly lead to *implicit bias*.
+- Some or most of the features should have edges *leading into* the neutral sentence, demonstrating how they contribute to its transformation.
+- Once the features act on the neutral sentence, it is transformed, and only then can it lead to implicit bias.
+
+
+Features:
+Neutral sentences(root)
+Social Identity
+Stereotype
+Stereotype activation
+Cognitive dissonance
+Ambiguous Language
+Unprotected features
+Social desirability
+Protected features
+Implicit bias(leaf)
+---
+### Output(example):
+### *Step 1: Finding the Edges*
+
+
+Here are the identified edges, focusing on how various features contribute to the transformation of a neutral sentence into implicit bias:
+
+
+1. *Edge (Social Identity → Neutral sentences):* Social identity influences how individuals interpret neutral statements. People's group membership shapes how they perceive the meaning or intent behind neutral sentences.
+   
+2. *Edge (Stereotype → Stereotype activation):* Stereotypes are ingrained social constructs that filter neutral sentences. The application of a stereotype influence seterotype activation
+
+.
+.
+.
+.
+
+**Output format:**  
+Provide a list of edges in the format specified above. For example:  
+```
+1. (A, B) : Explanation of why A causes B.  
+2. (C, D) : Explanation of why C causes D.  
+...
+```  
+
+**Give explanation for each edge**
+
+Give explanation for each edge
+'''
